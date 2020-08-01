@@ -1,0 +1,31 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "back-to-safety",
+  "version": "0.1.0",
+  "description": "Discord backup & antiraid bot.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "express": "^4.17.1",
+    "humanize-duration": "^3.23.1",
+    "mongoose": "^5.9.27",
+    "svg-captcha": "^1.4.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/back-to-safety"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
