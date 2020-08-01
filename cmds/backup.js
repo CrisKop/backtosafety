@@ -27,7 +27,7 @@ exports.run = async(client, message, args, Discord) =>{
     return message.channel.send(missingPermissionsEmbed);
 }
      
-     if(message.guild.channels.map(c => c.id).length > 26) return message.channel.send("No puedo crear backups de servidores con mas de 26 canales. Perdón.")
+     if(message.guild.channels.map(c => c.id).length > 65) return message.channel.send("No puedo crear backups de servidores con mas de 65 canales. Perdón.")
      
      let userbackups = await backupsdb.findOne({
 userID: `${message.author.id}`
