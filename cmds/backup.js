@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const svgCaptcha = require('svg-captcha');
 const backupsdb = require("../database/models/backups.js")
-
+//inicio
 exports.run = async(client, message, args, Discord) =>{
   try {
   
