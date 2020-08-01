@@ -157,8 +157,10 @@ await tosave.save();
 \`\`\`b!backup info ${backupid1}\`\`\``
             )
             .setColor("#59C57B");
-
+ setTimeout(() => {
+ 
           m.edit(resultPublic);
+    }, 1000);
         }
         
         
