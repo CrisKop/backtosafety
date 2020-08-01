@@ -49,7 +49,7 @@ userID: `${message.author.id}`
                 .setDescription(
                   `The Back To Safety's Role Is Not The Highest Role In The Server , This May Cause Some Errors When Loading The Backup. !
                             
-                            [Support](https://discord.gg/PPn4Q3)`
+                            [Support](https://discord.gg/Ex5wGRz)`
                 )
                 .setColor("#a11616");
      
@@ -225,7 +225,7 @@ await tosave.save();
           .setTitle(`${error}  Error`)
           .setDescription(
             `You forgot to define the argument backup_id. Use b!help backup load for more information.
-[Support](https://discord.gg/PPn4Q3)`
+[Support](https://discord.gg/Ex5wGRz)`
           )
           .setColor("#a11616");
         if (!code) return message.channel.send(errorEmbed);
@@ -235,7 +235,7 @@ await tosave.save();
           .setTitle(`You have no backup with the id ${code}.`)
           .setDescription(
             `
-[Support](https://discord.gg/PPn4Q3)`
+[Support](https://discord.gg/Ex5wGRz)`
           )
           .setColor("#a11616");
        
@@ -269,7 +269,7 @@ backupid: `${code}`
           .setTitle(`${error}  Error`)
           .setDescription(
             `You did'nt backup any server yet
-[Support](https://discord.gg/PPn4Q3)`
+[Support](https://discord.gg/Ex5wGRz)`
           )
           .setColor("#a11616");
        
@@ -329,7 +329,7 @@ __This cannot be undone!__`);
           .setTitle(`${error}  Error`)
           .setDescription(
             `You forgot to define the argument **backup_id**. Use \`b!help backup info\` for more information   
-                    [Support](https://discord.gg/PPn4Q3)`
+                    [Support](https://discord.gg/Ex5wGRz)`
           )
           .setColor("#a11616");
         if (!id) return message.channel.send(MissingbackupinfoEmbed);
@@ -344,7 +344,7 @@ backupid: `${id}`
           .setTitle(`${error}  Error`)
           .setDescription(
             `You have **no backup** with the id \`${id}\`.
-                "[Support](https://discord.gg/PPn4Q3)`
+                "[Support](https://discord.gg/Ex5wGRz)`
           )
           .setColor("#a11616");
         if (!userbackup2) {
@@ -439,12 +439,12 @@ userID: `${message.author.id}`,
         let code = args[1];
         let errorEmbed = new Discord.RichEmbed().setTitle(`${error}  Error`)
           .setDescription(`You forgot to define the argument backup_id. Use b!help backup load for more information.
-[Support](https://discord.gg/PPn4Q3)`);
+[Support](https://discord.gg/Ex5wGRz)`);
         if (!code) return message.channel.send(errorEmbed);
         let cantfindbackup = new Discord.RichEmbed()
           .setTitle(`${error}  Error`)
           .setTitle(`You have no backup with the id ${code}.`)
-          .setDescription("[Support](https://discord.gg/PPn4Q3)")
+          .setDescription("[Support](https://discord.gg/Ex5wGRz)")
           .setColor("#a11616");
             
             
