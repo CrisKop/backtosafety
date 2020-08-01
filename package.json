@@ -5,9 +5,9 @@
   "name": "back-to-safety",
   "version": "0.1.0",
   "description": "Discord backup & antiraid bot.",
-  "main": "server.js",
+  "main": "web.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node web.js"
   },
   "dependencies": {
     "discord.js": "^11.6.4",
